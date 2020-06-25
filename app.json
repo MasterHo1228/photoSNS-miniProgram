@@ -1,7 +1,36 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/profile/profile"
   ],
-  "sitemapLocation":"sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#007acc",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "PhotoSNS",
+    "backgroundColor": "#eeeeee",
+    "backgroundColorTop": "007acc",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/profile"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
 }
