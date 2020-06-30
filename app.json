@@ -12,7 +12,7 @@
     "backgroundColor": "#cccccc",
     "backgroundColorTop": "007acc",
     "backgroundTextStyle": "dark",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
     "color": "#000000",
