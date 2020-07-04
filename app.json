@@ -29,7 +29,7 @@
         "text": "我的",
         "pagePath": "pages/profile/profile",
         "iconPath": "images/tabbar/profile.png",
-        "selectedIconPath": "images/tabbar/home_fill.png"
+        "selectedIconPath": "images/tabbar/profile_fill.png"
       }
     ]
   },

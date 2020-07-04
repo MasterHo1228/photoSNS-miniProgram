@@ -1,66 +1,33 @@
 // pages/profile/profile.js
+const user = getApp();
+//console.log(user.globalData.name);
+//console.log(user.globalData.gender);
+
+
 Page({
+  data:{
+    list:[]
+  },
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
+  handleGetUserInfo (event){
+    console.log(event);
 
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  onLoad(){
+    wx.request({
+      url: 'https://jsonview.com/example.json',
+      success: (res) => {
+        const data = res.data;
+        this.setData({
+          list:data
+        })
+        console.log(this.data.list.notLink);
+      }
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  onReachBottom(){
+    console.log('You arrive the termius.')
   }
 })

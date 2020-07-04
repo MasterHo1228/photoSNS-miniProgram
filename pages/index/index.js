@@ -17,5 +17,9 @@ Page({
     this.setData({
       counter:this.data.counter +1
     });
+  },
+
+  onPullDownRefresh(){
+    console.log('Hey man,what are you looking for?')
   }
 })

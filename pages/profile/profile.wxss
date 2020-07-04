@@ -1,1 +1,6 @@
 /* pages/profile/profile.wxss */
+.userAvatar{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}

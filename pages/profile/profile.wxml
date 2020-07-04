@@ -1,2 +1,9 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class="container">
+  <button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">使用微信登录</button>
+
+  <open-data type="userAvatarUrl" class="userAvatar"></open-data>
+  <open-data type="userNickName" class="userName"></open-data>
+
+  <view wx:for="{{list}}">hey,{{item.notLink}}</view>
+</view>
