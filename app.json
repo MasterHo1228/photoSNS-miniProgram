@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/about/about",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/learn/learn/learn",
+    "pages/learn/text/text"
   ],
   "sitemapLocation": "sitemap.json",
   "window": {
@@ -30,6 +32,12 @@
         "pagePath": "pages/profile/profile",
         "iconPath": "images/tabbar/profile.png",
         "selectedIconPath": "images/tabbar/profile_fill.png"
+      },
+      {
+        "text": "demos",
+        "pagePath": "pages/learn/learn/learn",
+        "iconPath": "images/tabbar/learn.png",
+        "selectedIconPath": "images/tabbar/learn_selected.png"
       }
     ]
   },

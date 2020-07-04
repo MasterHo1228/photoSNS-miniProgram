@@ -1,6 +1,6 @@
 <!--pages/profile/profile.wxml-->
 <view class="container">
-  <button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">使用微信登录</button>
+  <button type="primary" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">使用微信登录</button>
 
   <open-data type="userAvatarUrl" class="userAvatar"></open-data>
   <open-data type="userNickName" class="userName"></open-data>

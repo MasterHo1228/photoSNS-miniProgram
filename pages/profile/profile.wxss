@@ -1,4 +1,9 @@
 /* pages/profile/profile.wxss */
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
 .userAvatar{
   height: 150rpx;
   width: 150rpx;

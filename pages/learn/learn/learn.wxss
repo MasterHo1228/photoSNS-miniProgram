@@ -1,0 +1,10 @@
+/* pages/learn/learn/learn.wxss */
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+#learn-buttons-list{
+  margin: 0 auto;
+  width: 85%;
+}

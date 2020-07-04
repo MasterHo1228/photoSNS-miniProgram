@@ -1,0 +1,13 @@
+<!--pages/learn/text/text.wxml-->
+<text>文字组件demo page\n</text>
+<text>🌚🌝🌚🌝🌚🌝🌚🌝\n</text>
+<text selectable>年輕得碰著誰亦能像威化般乾脆
+快活到半日也像活盡一百萬歲
+任何事亦難像青春般清脆
+快活到每日大一歲\n</text>
+<text>Wild World\n</text>
+<text space="nbsp">Wild World\n</text>
+<text space="ensp">Wild World\n</text>
+<text space="emsp">Wild World\n</text>
+<text>&gt;_&lt;\n</text>
+<text decode>&gt;_&lt;</text>
