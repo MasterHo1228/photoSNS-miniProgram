@@ -1,11 +1,11 @@
-// pages/learn/learn/learn.js
+// pages/learn/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isLoading:false
   },
 
   /**
@@ -64,14 +64,9 @@ Page({
 
   },
 
-  goToLearnText(){
-    wx.navigateTo({
-      url: '../text/text',
-    })
-  },
-  goToLearnButton(){
-    wx.navigateTo({
-      url: '../button/button',
+  startToLoadSth: function(){
+    this.setData({
+      isLoading:true
     })
   }
 })

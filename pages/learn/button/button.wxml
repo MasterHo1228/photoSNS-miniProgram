@@ -1,0 +1,16 @@
+<!--pages/learn/button/button.wxml-->
+<button type="primary" class="normal-btn">喵</button>
+<button type="default" class="normal-btn">汪</button>
+<button type="warn" class="normal-btn">Roar~</button>
+
+<view class="mini-buttons">
+  <button type="primary" size="mini">喵喵</button>
+  <button type="default" size="mini">汪汪</button>
+  <button type="warn" size="mini">嗷呜</button>
+  <button type="warn" size="mini" plain>嘤嘤</button>
+  <button type="warn" size="mini" disabled>嘿嘿</button>
+
+  <button size="mini" loading="{{isLoading}}" bindtap="startToLoadSth">摸鱼中~</button>
+</view>
+
+<button hover-class="TouchXPoint">按我试试~</button>

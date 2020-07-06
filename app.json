@@ -4,7 +4,8 @@
     "pages/about/about",
     "pages/profile/profile",
     "pages/learn/learn/learn",
-    "pages/learn/text/text"
+    "pages/learn/text/text",
+    "pages/learn/button/button"
   ],
   "sitemapLocation": "sitemap.json",
   "window": {

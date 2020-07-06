@@ -1,4 +1,5 @@
 <!--pages/learn/learn/learn.wxml-->
 <view id="learn-buttons-list">
   <button bindtap="goToLearnText">文字组件</button>
+  <button bindtap="goToLearnButton">按钮组件</button>
 </view>

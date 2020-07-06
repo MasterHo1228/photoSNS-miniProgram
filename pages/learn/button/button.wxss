@@ -1,0 +1,19 @@
+/* pages/learn/button/button.wxss */
+.normal-btn{
+  margin: 15rpx auto;
+  width: 85%;
+}
+
+.mini-buttons{
+  margin: 30rpx auto;
+  width: 60%;
+}
+
+.mini-buttons button{
+  margin: 5rpx;
+}
+
+.TouchXPoint{
+  background-color: gold;
+  color: green;
+}
