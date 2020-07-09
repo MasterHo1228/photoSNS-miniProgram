@@ -1,0 +1,6 @@
+<!--pages/learn/view/view.wxml-->
+<text>pages/learn/view/view.wxml</text>
+<view>咳咳咳</view>
+<view class="a1">欸欸欸</view>
+<view hover-class="question" hover-start-time="10">???</view>
+<view hover-class="hei" hover-stay-time="1300">嘿嘿嘿</view>

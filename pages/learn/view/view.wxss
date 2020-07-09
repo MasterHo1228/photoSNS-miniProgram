@@ -1,0 +1,14 @@
+/* pages/learn/view/view.wxss */
+.a1{
+  color: chocolate;
+}
+
+.question{
+  background-color: crimson;
+}
+
+.hei{
+  background-color: greenyellow;
+  color: green;
+  font-size: 75rpx;
+}

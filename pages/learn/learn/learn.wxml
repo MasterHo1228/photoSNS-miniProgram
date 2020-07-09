@@ -2,4 +2,6 @@
 <view id="learn-buttons-list">
   <button bindtap="goToLearnText">文字组件</button>
   <button bindtap="goToLearnButton">按钮组件</button>
+  <button bindtap="goToLearnView">View组件</button>
+  <button bindtap="goToLearnImage">image组件</button>
 </view>

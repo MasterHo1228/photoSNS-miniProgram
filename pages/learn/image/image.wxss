@@ -1,0 +1,10 @@
+/* pages/learn/image/image.wxss */
+.demo{
+  height: 350rpx;
+  width: 350rpx;
+}
+
+.smallPhoto{
+  height: 250rpx;
+  width: 250rpx;
+}

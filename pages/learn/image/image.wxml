@@ -1,0 +1,18 @@
+<!--pages/learn/image/image.wxml-->
+<image class="demo" src="/assets/img/20200514111039.jpg"></image>
+<image class="demo" src="http://p2.music.126.net/K0qTAjsSNiUW7QK0xH_mhw==/109951164614780763.jpg?param=177y177"/>
+
+<view>
+  <button bindtap="handleSelectPhoto">选择图片</button>
+  <image class="demo" wx:for="{{imagesPath}}" src="{{item}}"/>
+</view>
+
+<view>
+  <image wx:for="{{30}}" mode="aspectFill" bindload="handleImageLoad" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" lazy-load/>
+</view>
+
+<image mode="aspectFill" src="/assets/img/qrcode.jpg" lazy-load show-menu-by-longpress/>
+
+<mp-dialog title="上传错误" show="{{showSelectImageErrDialog}}">
+        <view>{{errContent}}</view>
+    </mp-dialog>

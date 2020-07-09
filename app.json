@@ -1,11 +1,16 @@
 {
+  "useExtendedLib": {
+    "weui": true
+  },
   "pages": [
     "pages/index/index",
     "pages/about/about",
     "pages/profile/profile",
     "pages/learn/learn/learn",
     "pages/learn/text/text",
-    "pages/learn/button/button"
+    "pages/learn/button/button",
+    "pages/learn/view/view",
+    "pages/learn/image/image"
   ],
   "sitemapLocation": "sitemap.json",
   "window": {
