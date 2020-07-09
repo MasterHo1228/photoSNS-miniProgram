@@ -1,0 +1,12 @@
+<!--pages/learn/input/input.wxml-->
+<input class="input-a1"/>
+
+<input class="input-a1" value="ABCDEFG" confirm-type=""/>
+
+<input class="input-a1" type="number" placeholder="numbers"/>
+
+<input class="input-a1" type="password" placeholder="password"/>
+
+<input class="input-a1" type="idcard" placeholder="ID Card Number"/>
+
+<input class="input-a1" bindinput="handleInputSth" bindfocus="handleInputFocus" bindblur="handleInputBlur"/>

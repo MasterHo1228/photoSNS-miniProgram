@@ -1,0 +1,9 @@
+<!--pages/learn/scroll-view/scroll-view.wxml-->
+<scroll-view scroll-y bindscroll="handleScrollY">
+  <view wx:key="this" wx:for="{{9}}" wx:for-index="key" wx:for-item="value">
+  <text wx:key="this" wx:for="{{value + 1}}" >{{key + 1}}*{{item + 1}}={{(key + 1) * (item + 1)}}  </text>   
+  </view>
+</scroll-view>
+<scroll-view scroll-x class="scrollY" bindscroll="handleScrollX">
+  无论怎得罪 你说我是负累 陪着我等于死去了无情趣 从前或现在当我是谁 你这一种伴侣 前夜一起睡 你却没廉耻 竟讲出口你怕受罪 完全忘记往日为何 凌晨仍潮弄戏水 难道爱爱爱爱爱对爱情已死心 贪高兴好心敷衍一下却逼真的亲吻 我们这结局太不堪 分不出真假的爱恨 无谓爱爱爱爱爱太过动魄惊心 我估错这个世界得到教训 怎相信人 命中怎么爱着你为人
+</scroll-view>

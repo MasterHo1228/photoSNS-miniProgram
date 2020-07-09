@@ -4,4 +4,6 @@
   <button bindtap="goToLearnButton">按钮组件</button>
   <button bindtap="goToLearnView">View组件</button>
   <button bindtap="goToLearnImage">image组件</button>
+  <button bindtap="goToLearnInput">input组件</button>
+  <button bindtap="goToLearnScrollView">ScrollView组件</button>
 </view>

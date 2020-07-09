@@ -27,5 +27,15 @@ Page({
     wx.navigateTo({
       url: '../image/image',
     })
+  },
+  goToLearnInput(){
+    wx.navigateTo({
+      url: '../input/input',
+    })
+  },
+  goToLearnScrollView(){
+    wx.navigateTo({
+      url: '../scroll-view/scroll-view',
+    })
   }
 })

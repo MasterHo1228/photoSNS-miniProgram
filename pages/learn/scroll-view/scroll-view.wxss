@@ -1,0 +1,13 @@
+/* pages/learn/scroll-view/scroll-view.wxss */
+scroll-view{
+  height: 250rpx;
+  margin: 15rpx auto;
+  width: 90%;
+  border: 2px solid black;
+}
+
+.scrollY{
+  height: 45rpx;
+  white-space: nowrap;
+  background-color: lightslategrey;
+}

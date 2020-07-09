@@ -1,0 +1,10 @@
+/* pages/learn/input/input.wxss */
+input{
+  border:1rpx solid black;
+  margin: 15rpx auto;
+}
+
+.input-a1{
+  width: 85%;
+  height: 100rpx;
+}

@@ -10,7 +10,9 @@
     "pages/learn/text/text",
     "pages/learn/button/button",
     "pages/learn/view/view",
-    "pages/learn/image/image"
+    "pages/learn/image/image",
+    "pages/learn/input/input",
+    "pages/learn/scroll-view/scroll-view"
   ],
   "sitemapLocation": "sitemap.json",
   "window": {
